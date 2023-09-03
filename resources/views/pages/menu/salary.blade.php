@@ -36,7 +36,7 @@
                             <th class="col">User</th>
                             <th class="col">Salary</th>
                             <th class="col">Status</th>
-                            <th class="col">Detail</th>
+                            <th class="col"></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -130,7 +130,7 @@
                                     },
                                     
                                     {
-                                        "data": null, defaultContent: `<button class="btn btn-sm btn-primary">Detail</button>`,className: 'text-center d-print-none', width: '30px',
+                                        "data": null, defaultContent: `<button class="btn btn-sm btn-primary"><i class="fas fa-ellipsis-v"></i></button>`,className: 'text-center d-print-none', width: '30px',
                                         // return button =``;
 
                                     }
