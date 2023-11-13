@@ -1,4 +1,68 @@
-.medicam{
+.bg-mediceram{
     background-color: #3db9c6ff;
 }
 
+.text-mediceram-primary{
+    color: #4b4b4b !important;
+}
+
+.text-mediceram-secondary{
+    color: #3db9c6ff !important;
+}
+
+.text-mediceram-primary:hover{
+    color: #3db9c6ff !important;
+    background: rgb(174, 247, 255);
+}
+
+.text-mediceram-secondary:hover{
+    color: #4b4b4b !important;
+    background: #b5b5b5;
+}
+
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active{
+    background-color: #4b4b4b;
+    color: #ffffff !important;
+}
+
+.brand-link{
+    border-bottom: 0 !important;
+}
+
+.text-dashboard-h1{
+    font-size: 2rem;
+}
+
+.square {
+aspect-ratio: 1 / 1;
+width: 100%;
+max-height: 100%;
+}
+
+.bg-thead-mediceram{
+    background: #f4f6f9;
+    color: #4b4b4b;
+}
+
+.page-item.active .page-link {
+  color: #3db9c6ff;;
+  background-color: white;
+  border-color: #3db9c6ff;
+}
+
+.pageinate-Mediceram {
+    color: #3db9c6ff;;
+    background-color: white;
+    border-color: #3db9c6ff;
+  }
+
+@media (min-width: 1200px){
+    .border-xl-right{
+        border-right: 1px solid #dee2e6!important;
+    }
+    
+    .border-xl-left{
+        border-left: 1px solid #dee2e6!important;
+    }
+
+}
