@@ -63,12 +63,12 @@ return [
     |
     */
 
-    'logo' => 'mediceram',
-    'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
-    'logo_img_class' => 'brand-image img-circle elevation-3',
+    'logo' => '',
+    'logo_img' => 'img/mediceram_logo-tranparent-xmargin.png',
+    'logo_img_class' => 'w-100',
     'logo_img_xl' => null,
-    'logo_img_xl_class' => 'brand-image-xs',
-    'logo_img_alt' => 'Admin Logo',
+    'logo_img_xl_class' => 'w-100',
+    'logo_img_alt' => 'Mediceram Logo',
 
     /*
     |--------------------------------------------------------------------------
@@ -109,10 +109,10 @@ return [
     'preloader' => [
         'enabled' => true,
         'img' => [
-            'path' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
+            'path' => 'img/mediceram_logo-tranparent-xmargin.png',
             'alt' => 'AdminLTE Preloader Image',
             'effect' => 'animation__shake',
-            'width' => 60,
+            'width' => 200,
             'height' => 60,
         ],
     ],
@@ -325,19 +325,38 @@ return [
             'icon' => 'fas fa-fw fa-home',
         ],
         [
-            'text' => 'Employee',
-            'url'  => 'employee',
-            'icon' => 'fas fa-fw fa-users',
+            'text' => 'Employees',
+            'url'  => '#',
+            'icon' => 'far fa-fw fa-user-circle',
+            'submenu' => [
+                [
+                    'text' => 'Attendance Sheet',
+                    'url'  => 'employees',
+                ],
+                [
+                    'text' => 'Shift & Shedule',
+                    'url'  => '#',
+                ],
+                [
+                    'text' => 'Overtime',
+                    'url'  => '#',
+                ],
+            ],
         ],
         [
-            'text' => 'Salary',
-            'url'  => 'salary',
-            'icon' => 'fas fa-fw fas fa-money-check-alt',
+            'text' => 'Payroll',
+            'url'  => 'payroll',
+            'icon' => 'fas fa-fw fa-dollar-sign',
         ],
         [
-            'text' => 'History',
-            'url'  => 'history',
-            'icon' => 'fas fa-fw fa-history',
+            'text' => 'Calendar',
+            'url'  => 'calendar',
+            'icon' => 'fas fa-fw fa-calendar',
+        ],
+        [
+            'text' => 'Reports',
+            'url'  => 'reports',
+            'icon' => 'far fa-fw fa-folder-open',
         ],
         // [
         //     'text'    => 'multilevel',

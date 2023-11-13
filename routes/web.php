@@ -22,17 +22,21 @@ Route::get('/dashboard', function() {
     return view('pages.dashboard');
 })->name('dashboard');
 
-Route::get('/salary', function() {
-    return view('pages.menu.salary');
-})->name('salary');
+Route::get('/payroll', function() {
+    return view('pages.menu.payroll');
+})->name('payroll');
 
-Route::get('/history', function() {
-    return view('pages.menu.history');
-})->name('history');
+Route::get('/reports', function() {
+    return view('pages.menu.reports');
+})->name('reports');
 
-Route::get('/employee', function() {
-    return view('pages.menu.employee');
-})->name('employee');
+Route::get('/calendar', function() {
+    return view('pages.menu.calendar');
+})->name('calendar');
+
+Route::get('/employees', function() {
+    return view('pages.menu.employees');
+})->name('employees');
 
 Auth::routes();
 
